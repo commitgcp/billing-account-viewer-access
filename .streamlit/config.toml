@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+backgroundColor="#262730"
+secondaryBackgroundColor="#000000"
+
+[runner]
+fastReruns = false

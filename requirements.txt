@@ -1,0 +1,7 @@
+streamlit
+google-cloud-datastore
+pretf
+google-auth
+google-auth-oauthlib
+Flask>=2.2.5
+google-api-python-client

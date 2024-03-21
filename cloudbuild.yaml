@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  script: |
+    docker buildx build --platform linux/amd64 -t me-west1-docker.pkg.dev/commit-automation/billing-account-access-app/billing-account-access-app:latest .
+  automapSubstitutions: true
+images:
+- 'me-west1-docker.pkg.dev/commit-automation/billing-account-access-app/billing-account-access-app:latest'
